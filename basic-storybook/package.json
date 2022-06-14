@@ -1,0 +1,23 @@
+{
+  "name": "basic-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006 -c .storybook ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addons": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "babel-core": "^6.26.3",
+    "storybook-addon-jsx": "^7.3.14"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
